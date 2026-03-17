@@ -17,15 +17,4 @@ let undefined1: undefined = undefined;
 let literal1: "hello" = "hello";
 let literal2: 123 = 123;
 
-// 배열
-let arr1: number[] = [1, 2, 3];
-let arr2: string[] = ["hello", "world"];
-
-// 객체
-let obj1: { name: string; age: number } = { name: "john", age: 30 };
-
-// 함수
-let func1: (name: string) => string = (name) => {
-  return `hello ${name}`;
-};
 
